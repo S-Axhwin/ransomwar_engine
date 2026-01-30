@@ -1,0 +1,4 @@
+{"timestamp": 1769736994.882543, "event_type": "TEST_EVENT", "details": {"foo": "bar", "severity": "low"}}
+{"timestamp": 1769737019.1030982, "event_type": "ALERT", "details": {"reason": "DECOY_MODIFIED", "path": "/Users/ashwin/Documents/personal/darling/test_decoys_full/salary_data.docx"}}
+{"timestamp": 1769737019.1035898, "event_type": "ALERT", "details": {"reason": "DECOY_MODIFIED", "path": "/Users/ashwin/Documents/personal/darling/test_decoys_full/passwords.docx"}}
+{"timestamp": 1769737019.1038249, "event_type": "ALERT", "details": {"reason": "DECOY_MODIFIED", "path": "/Users/ashwin/Documents/personal/darling/test_decoys_full/strategic_plan.docx"}}
