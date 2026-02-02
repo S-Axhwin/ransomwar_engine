@@ -36,7 +36,7 @@ def main():
     
     # Generate a few decoys if they don't exist
     for name in ["salary_data", "passwords", "strategic_plan"]:
-        path = decoy_gen.generate_decoy(name, ".docx")
+        path = decoy_gen.generate_decoy(name, ".docx", overwrite=False)
         logger.info(f"Deployed decoy: {path}")
 
     # Build Ledger

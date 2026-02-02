@@ -5,3 +5,8 @@
 {"timestamp": 1770053727.4915159, "event_type": "ALERT", "details": {"reason": "DECOY_MODIFIED", "path": "/Users/ashwin/Documents/personal/ransomwar_engine/decoys/salary_data.docx"}}
 {"timestamp": 1770053727.492186, "event_type": "ALERT", "details": {"reason": "DECOY_MODIFIED", "path": "/Users/ashwin/Documents/personal/ransomwar_engine/decoys/passwords.docx"}}
 {"timestamp": 1770053727.492419, "event_type": "ALERT", "details": {"reason": "DECOY_MODIFIED", "path": "/Users/ashwin/Documents/personal/ransomwar_engine/decoys/strategic_plan.docx"}}
+{"timestamp": 1770055322.5124779, "event_type": "ALERT", "details": {"reason": "DECOY_MODIFIED", "path": "/Users/ashwin/Documents/personal/ransomwar_engine/my_decoys/salary_data.docx"}}
+{"timestamp": 1770055322.513181, "event_type": "ALERT", "details": {"reason": "DECOY_MODIFIED", "path": "/Users/ashwin/Documents/personal/ransomwar_engine/my_decoys/passwords.docx"}}
+{"timestamp": 1770055322.513812, "event_type": "ALERT", "details": {"reason": "DECOY_MODIFIED", "path": "/Users/ashwin/Documents/personal/ransomwar_engine/my_decoys/strategic_plan.docx"}}
+{"timestamp": 1770055476.517644, "event_type": "ALERT", "details": {"reason": "DECOY_MODIFIED", "path": "/Users/ashwin/Documents/personal/ransomwar_engine/my_decoys/passwords.docx"}}
+{"timestamp": 1770055476.51943, "event_type": "ALERT", "details": {"reason": "DECOY_MODIFIED", "path": "/Users/ashwin/Documents/personal/ransomwar_engine/my_decoys/passwords.docx"}}

@@ -45,3 +45,54 @@
 2026-02-02 23:05:27,492 - ransomware_engine.containment.isolate - WARNING - SAFE MODE ACTIVE: Network isolation skipped. Would have executed 'pfctl -e' or similar.
 2026-02-02 23:05:36,904 - ransomware_engine - INFO - Stopping engine...
 2026-02-02 23:05:36,905 - ransomware_engine.detector.fim - INFO - FIM Monitor stopped
+2026-02-02 23:32:02,500 - ransomware_engine - INFO - Initializing Decoy System...
+2026-02-02 23:32:02,500 - ransomware_engine.decoy.generator - INFO - Generated decoy: my_decoys/salary_data.docx with canary 8b3bdbc3-5f4f-4f8d-a01a-c20c5103f05a
+2026-02-02 23:32:02,500 - ransomware_engine - INFO - Deployed decoy: my_decoys/salary_data.docx
+2026-02-02 23:32:02,501 - ransomware_engine.decoy.generator - INFO - Generated decoy: my_decoys/passwords.docx with canary db0baf44-bcd5-46d4-86d7-68c0955d8eba
+2026-02-02 23:32:02,501 - ransomware_engine - INFO - Deployed decoy: my_decoys/passwords.docx
+2026-02-02 23:32:02,501 - ransomware_engine.decoy.generator - INFO - Generated decoy: my_decoys/strategic_plan.docx with canary d6c225f7-363a-4b72-a55b-e447d8d6d046
+2026-02-02 23:32:02,501 - ransomware_engine - INFO - Deployed decoy: my_decoys/strategic_plan.docx
+2026-02-02 23:32:02,501 - ransomware_engine - INFO - Starting FIM on ....
+2026-02-02 23:32:02,502 - ransomware_engine.detector.fim - INFO - FIM Monitor started on .
+2026-02-02 23:32:02,512 - ransomware_engine.detector.fim - CRITICAL - 🚨 DECOY TOUCHED: /Users/ashwin/Documents/personal/ransomwar_engine/my_decoys/salary_data.docx was modified!
+2026-02-02 23:32:02,512 - ransomware_engine - CRITICAL - ALERT: DECOY_MODIFIED on /Users/ashwin/Documents/personal/ransomwar_engine/my_decoys/salary_data.docx
+2026-02-02 23:32:02,512 - ransomware_engine.containment.isolate - CRITICAL - 🚨 CONTAINMENT TRIGGERED: Network Isolation Requested
+2026-02-02 23:32:02,512 - ransomware_engine.containment.isolate - WARNING - SAFE MODE ACTIVE: Network isolation skipped. Would have executed 'pfctl -e' or similar.
+2026-02-02 23:32:02,512 - ransomware_engine.detector.fim - CRITICAL - 🚨 DECOY TOUCHED: /Users/ashwin/Documents/personal/ransomwar_engine/my_decoys/passwords.docx was modified!
+2026-02-02 23:32:02,512 - ransomware_engine - CRITICAL - ALERT: DECOY_MODIFIED on /Users/ashwin/Documents/personal/ransomwar_engine/my_decoys/passwords.docx
+2026-02-02 23:32:02,513 - ransomware_engine.containment.isolate - CRITICAL - 🚨 CONTAINMENT TRIGGERED: Network Isolation Requested
+2026-02-02 23:32:02,513 - ransomware_engine.containment.isolate - WARNING - SAFE MODE ACTIVE: Network isolation skipped. Would have executed 'pfctl -e' or similar.
+2026-02-02 23:32:02,513 - ransomware_engine.detector.fim - CRITICAL - 🚨 DECOY TOUCHED: /Users/ashwin/Documents/personal/ransomwar_engine/my_decoys/strategic_plan.docx was modified!
+2026-02-02 23:32:02,513 - ransomware_engine - CRITICAL - ALERT: DECOY_MODIFIED on /Users/ashwin/Documents/personal/ransomwar_engine/my_decoys/strategic_plan.docx
+2026-02-02 23:32:02,513 - ransomware_engine.containment.isolate - CRITICAL - 🚨 CONTAINMENT TRIGGERED: Network Isolation Requested
+2026-02-02 23:32:02,514 - ransomware_engine.containment.isolate - WARNING - SAFE MODE ACTIVE: Network isolation skipped. Would have executed 'pfctl -e' or similar.
+2026-02-02 23:33:54,432 - ransomware_engine - INFO - Initializing Decoy System...
+2026-02-02 23:33:54,433 - ransomware_engine.decoy.generator - INFO - Decoy my_decoys/salary_data.docx already exists. Skipping generation.
+2026-02-02 23:33:54,433 - ransomware_engine - INFO - Deployed decoy: my_decoys/salary_data.docx
+2026-02-02 23:33:54,433 - ransomware_engine.decoy.generator - INFO - Decoy my_decoys/passwords.docx already exists. Skipping generation.
+2026-02-02 23:33:54,433 - ransomware_engine - INFO - Deployed decoy: my_decoys/passwords.docx
+2026-02-02 23:33:54,433 - ransomware_engine.decoy.generator - INFO - Decoy my_decoys/strategic_plan.docx already exists. Skipping generation.
+2026-02-02 23:33:54,433 - ransomware_engine - INFO - Deployed decoy: my_decoys/strategic_plan.docx
+2026-02-02 23:33:54,433 - ransomware_engine - INFO - Starting FIM on ....
+2026-02-02 23:33:54,435 - ransomware_engine.detector.fim - INFO - FIM Monitor started on .
+2026-02-02 23:34:08,998 - ransomware_engine - INFO - Stopping engine...
+2026-02-02 23:34:09,005 - ransomware_engine.detector.fim - INFO - FIM Monitor stopped
+2026-02-02 23:34:19,841 - ransomware_engine - INFO - Initializing Decoy System...
+2026-02-02 23:34:19,841 - ransomware_engine.decoy.generator - INFO - Decoy my_decoys/salary_data.docx already exists. Skipping generation.
+2026-02-02 23:34:19,841 - ransomware_engine - INFO - Deployed decoy: my_decoys/salary_data.docx
+2026-02-02 23:34:19,841 - ransomware_engine.decoy.generator - INFO - Decoy my_decoys/passwords.docx already exists. Skipping generation.
+2026-02-02 23:34:19,842 - ransomware_engine - INFO - Deployed decoy: my_decoys/passwords.docx
+2026-02-02 23:34:19,842 - ransomware_engine.decoy.generator - INFO - Decoy my_decoys/strategic_plan.docx already exists. Skipping generation.
+2026-02-02 23:34:19,842 - ransomware_engine - INFO - Deployed decoy: my_decoys/strategic_plan.docx
+2026-02-02 23:34:19,842 - ransomware_engine - INFO - Starting FIM on ....
+2026-02-02 23:34:19,843 - ransomware_engine.detector.fim - INFO - FIM Monitor started on .
+2026-02-02 23:34:36,516 - ransomware_engine.detector.fim - CRITICAL - 🚨 DECOY TOUCHED: /Users/ashwin/Documents/personal/ransomwar_engine/my_decoys/passwords.docx was modified!
+2026-02-02 23:34:36,517 - ransomware_engine - CRITICAL - ALERT: DECOY_MODIFIED on /Users/ashwin/Documents/personal/ransomwar_engine/my_decoys/passwords.docx
+2026-02-02 23:34:36,519 - ransomware_engine.containment.isolate - CRITICAL - 🚨 CONTAINMENT TRIGGERED: Network Isolation Requested
+2026-02-02 23:34:36,519 - ransomware_engine.containment.isolate - WARNING - SAFE MODE ACTIVE: Network isolation skipped. Would have executed 'pfctl -e' or similar.
+2026-02-02 23:34:36,518 - ransomware_engine.detector.fim - CRITICAL - 🚨 DECOY TOUCHED: /Users/ashwin/Documents/personal/ransomwar_engine/my_decoys/passwords.docx was modified!
+2026-02-02 23:34:36,519 - ransomware_engine - CRITICAL - ALERT: DECOY_MODIFIED on /Users/ashwin/Documents/personal/ransomwar_engine/my_decoys/passwords.docx
+2026-02-02 23:34:36,519 - ransomware_engine.containment.isolate - CRITICAL - 🚨 CONTAINMENT TRIGGERED: Network Isolation Requested
+2026-02-02 23:34:36,519 - ransomware_engine.containment.isolate - WARNING - SAFE MODE ACTIVE: Network isolation skipped. Would have executed 'pfctl -e' or similar.
+2026-02-02 23:35:29,175 - ransomware_engine - INFO - Stopping engine...
+2026-02-02 23:35:29,183 - ransomware_engine.detector.fim - INFO - FIM Monitor stopped

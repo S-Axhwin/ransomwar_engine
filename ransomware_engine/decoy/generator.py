@@ -24,7 +24,7 @@ class DecoyGenerator:
         # Simple appending for now; in prod, this should be hidden better (e.g., metadata)
         return content + f"\n__CANARY_TOKEN__:{canary}".encode('utf-8')
 
-    def generate_decoy(self, filename: str, ext: str = ".txt"):
+    def generate_decoy(self, filename: str, ext: str = ".txt", overwrite: bool = False):
         """Creates a decoy file with the given name and extension."""
         full_path = os.path.join(self.decoy_dir, f"{filename}{ext}")
         canary = str(uuid.uuid4())
@@ -32,6 +32,11 @@ class DecoyGenerator:
         # Simulate different file structures (basic)
         content = self._generate_random_content(size_kb=random.randint(5, 50))
         final_content = self._embed_canary(content, canary)
+
+        if os.path.exists(full_path) and not overwrite:
+            logger.info(f"Decoy {full_path} already exists. Skipping generation.")
+            self.canary_ledger[full_path] = "existing_unknown_canary" # In a real app, we'd read it.
+            return full_path
 
         try:
             with open(full_path, "wb") as f:
